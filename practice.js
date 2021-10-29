@@ -44,3 +44,33 @@ console.log(j/k);
 console.log(j*k);
 console.log(j%k);
 
+//toFixed()-- function using.
+let f = 205.5415412;
+console.log(f.toFixed(2));
+
+//using floor/ceil/random number method.
+console.log(Math.floor(f));
+console.log(Math.ceil(f));
+console.log(Math.random());
+
+//change variables value typeof-- using parseInt()-- method.
+let g = "250";
+let h = parseInt(g);
+console.log(g, typeof g);
+console.log(h, typeof h);
+
+//using toString() -- method.
+let i = 2005;
+let l = i.toString();
+console.log(l, typeof l);
+
+//template string.
+let m = 'Krisanu Dey';
+let age = 25;
+let string = `My name is ${m} and I am ${age} years old.`;
+console.log(string);
+
+let isFreezing = true;
+let isWord = false;
+console.log(isFreezing, typeof isFreezing);
+console.log(isWord, typeof isWord);
